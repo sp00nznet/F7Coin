@@ -163,7 +163,7 @@ int ClientModel::getHashrate() const
     return (boost::int64_t)dHashesPerSec;
 }
 
-// BBQCoin: copied from bitcoinrpc.cpp.
+// F7Coin: copied from bitcoinrpc.cpp.
 double ClientModel::GetDifficulty() const
 {
     // Floating point number that is a multiple of the minimum difficulty,

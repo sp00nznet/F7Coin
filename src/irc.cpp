@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin developers
-// Copyright (c) 2011-2012 BBQCoin Developers
+// Copyright (c) 2011-2012 F7Coin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -290,14 +290,14 @@ void ThreadIRCSeed2(void* parg)
         }
         
         if (fTestNet) {
-            Send(hSocket, "JOIN #bbqcoinTEST3\r");
-            Send(hSocket, "WHO #bbqcoinTEST3\r");
+            Send(hSocket, "JOIN #f7coinTEST3\r");
+            Send(hSocket, "WHO #f7coinTEST3\r");
         } else {
-            // randomly join #bbqcoin00-#bbqcoin99
+            // randomly join #f7coin00-#f7coin99
             int channel_number = GetRandInt(100);
-            channel_number = 0; // BBQCoin: for now, just use one channel
-            Send(hSocket, strprintf("JOIN #bbqcoin%02d\r", channel_number).c_str());
-            Send(hSocket, strprintf("WHO #bbqcoin%02d\r", channel_number).c_str());
+            channel_number = 0; // F7Coin: for now, just use one channel
+            Send(hSocket, strprintf("JOIN #f7coin%02d\r", channel_number).c_str());
+            Send(hSocket, strprintf("WHO #f7coin%02d\r", channel_number).c_str());
         }
 
         int64 nStart = GetTime();

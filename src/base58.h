@@ -1,6 +1,6 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2012 The Bitcoin Developers
-// Copyright (c) 2011-2012 BBQCoin Developers
+// Copyright (c) 2011-2012 F7Coin Developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -277,7 +277,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 85, // BBQCoin addresses start with L
+        PUBKEY_ADDRESS = 85, // F7Coin addresses start with L
         SCRIPT_ADDRESS = 6,
         PUBKEY_ADDRESS_TEST = 25,
         SCRIPT_ADDRESS_TEST = 176,
