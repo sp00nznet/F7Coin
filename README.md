@@ -12,7 +12,7 @@ make -f makefile.unix USE_PNP=-
 
 to make a gui wallet
 
-qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
+qmake-qt4 Makefile.test f7coin-qt.pro
 make -f Makefile.test
 ./f7coin-qt_test
 
