@@ -1,8 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'overviewpage.h'
 **
-** Created: Wed Mar 12 17:59:01 2014
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -11,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'overviewpage.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -31,22 +30,23 @@ static const uint qt_meta_data_OverviewPage[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      20,   14,   13,   13, 0x05,
+      13,   45,   51,   51, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      95,   52,   13,   13, 0x0a,
-     134,  128,   13,   13, 0x0a,
-     158,   13,   13,   13, 0x08,
-     178,   14,   13,   13, 0x08,
+      52,   85,   51,   51, 0x0a,
+     128,  152,   51,   51, 0x0a,
+     158,   51,   51,   51, 0x08,
+     178,   45,   51,   51, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_OverviewPage[] = {
-    "OverviewPage\0\0index\0transactionClicked(QModelIndex)\0"
+    "OverviewPage\0transactionClicked(QModelIndex)\0"
+    "index\0\0setBalance(qint64,qint64,qint64)\0"
     "balance,unconfirmedBalance,immatureBalance\0"
-    "setBalance(qint64,qint64,qint64)\0count\0"
-    "setNumTransactions(int)\0updateDisplayUnit()\0"
+    "setNumTransactions(int)\0count\0"
+    "updateDisplayUnit()\0"
     "handleTransactionClicked(QModelIndex)\0"
 };
 

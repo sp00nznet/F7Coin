@@ -1,8 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'bitcoingui.h'
 **
-** Created: Wed Mar 12 17:58:51 2014
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -11,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'bitcoingui.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -23,7 +22,7 @@ static const uint qt_meta_data_BitcoinGUI[] = {
        6,       // revision
        0,       // classname
        0,    0, // classinfo
-      27,   14, // methods
+      26,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -31,57 +30,54 @@ static const uint qt_meta_data_BitcoinGUI[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      18,   12,   11,   11, 0x0a,
-      60,   41,   11,   11, 0x0a,
-      98,   82,   11,   11, 0x0a,
-     125,  118,   11,   11, 0x0a,
-     170,  150,   11,   11, 0x0a,
-     218,  198,   11,   11, 0x0a,
-     246,  239,   11,   11, 0x0a,
-     270,  265,   11,   11, 0x0a,
-     295,   11,   11,   11, 0x2a,
-     313,   11,   11,   11, 0x08,
-     332,   11,   11,   11, 0x08,
-     349,   11,   11,   11, 0x08,
-     367,   11,   11,   11, 0x08,
-     389,   11,   11,   11, 0x08,
-     412,   11,   11,   11, 0x08,
-     432,   11,   11,   11, 0x08,
-     449,   11,   11,   11, 0x08,
-     471,  464,   11,   11, 0x08,
-     541,  524,   11,   11, 0x08,
-     582,  118,   11,   11, 0x08,
-     602,   11,   11,   11, 0x08,
-     617,   11,   11,   11, 0x08,
-     636,   11,   11,   11, 0x08,
-     652,   11,   11,   11, 0x08,
-     681,  667,   11,   11, 0x08,
-     709,   11,   11,   11, 0x28,
-     733,   11,   11,   11, 0x08,
+      11,   34,   40,   40, 0x0a,
+      41,   63,   40,   40, 0x0a,
+      82,  102,   40,   40, 0x0a,
+     118,  143,   40,   40, 0x0a,
+     150,  178,   40,   40, 0x0a,
+     198,  219,   40,   40, 0x0a,
+     239,  258,   40,   40, 0x0a,
+     265,  290,   40,   40, 0x0a,
+     295,   40,   40,   40, 0x2a,
+     313,   40,   40,   40, 0x08,
+     332,   40,   40,   40, 0x08,
+     349,   40,   40,   40, 0x08,
+     367,   40,   40,   40, 0x08,
+     389,   40,   40,   40, 0x08,
+     412,   40,   40,   40, 0x08,
+     432,   40,   40,   40, 0x08,
+     449,   40,   40,   40, 0x08,
+     464,  505,   40,   40, 0x08,
+     522,  143,   40,   40, 0x08,
+     542,   40,   40,   40, 0x08,
+     557,   40,   40,   40, 0x08,
+     576,   40,   40,   40, 0x08,
+     592,   40,   40,   40, 0x08,
+     607,  635,   40,   40, 0x08,
+     649,   40,   40,   40, 0x28,
+     673,   40,   40,   40, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_BitcoinGUI[] = {
-    "BitcoinGUI\0\0count\0setNumConnections(int)\0"
-    "count,countOfPeers\0setNumBlocks(int,int)\0"
-    "mining,hashrate\0setMining(bool,int)\0"
-    "status\0setEncryptionStatus(int)\0"
-    "title,message,modal\0error(QString,QString,bool)\0"
-    "nFeeRequired,payFee\0askFee(qint64,bool*)\0"
-    "strURI\0handleURI(QString)\0addr\0"
-    "gotoMessagePage(QString)\0gotoMessagePage()\0"
-    "gotoOverviewPage()\0gotoMiningPage()\0"
-    "gotoHistoryPage()\0gotoAddressBookPage()\0"
-    "gotoReceiveCoinsPage()\0gotoSendCoinsPage()\0"
-    "optionsClicked()\0aboutClicked()\0reason\0"
-    "trayIconActivated(QSystemTrayIcon::ActivationReason)\0"
-    "parent,start,end\0"
-    "incomingTransaction(QModelIndex,int,int)\0"
-    "encryptWallet(bool)\0backupWallet()\0"
-    "changePassphrase()\0verifyMessage()\0"
-    "unlockWallet()\0fToggleHidden\0"
-    "showNormalIfMinimized(bool)\0"
+    "BitcoinGUI\0setNumConnections(int)\0"
+    "count\0\0setNumBlocks(int,int)\0"
+    "count,countOfPeers\0setMining(bool,int)\0"
+    "mining,hashrate\0setEncryptionStatus(int)\0"
+    "status\0error(QString,QString,bool)\0"
+    "title,message,modal\0askFee(qint64,bool*)\0"
+    "nFeeRequired,payFee\0handleURI(QString)\0"
+    "strURI\0gotoMessagePage(QString)\0addr\0"
+    "gotoMessagePage()\0gotoOverviewPage()\0"
+    "gotoMiningPage()\0gotoHistoryPage()\0"
+    "gotoAddressBookPage()\0gotoReceiveCoinsPage()\0"
+    "gotoSendCoinsPage()\0optionsClicked()\0"
+    "aboutClicked()\0incomingTransaction(QModelIndex,int,int)\0"
+    "parent,start,end\0encryptWallet(bool)\0"
+    "backupWallet()\0changePassphrase()\0"
+    "verifyMessage()\0unlockWallet()\0"
+    "showNormalIfMinimized(bool)\0fToggleHidden\0"
     "showNormalIfMinimized()\0toggleHidden()\0"
 };
 
@@ -108,16 +104,15 @@ void BitcoinGUI::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 14: _t->gotoSendCoinsPage(); break;
         case 15: _t->optionsClicked(); break;
         case 16: _t->aboutClicked(); break;
-        case 17: _t->trayIconActivated((*reinterpret_cast< QSystemTrayIcon::ActivationReason(*)>(_a[1]))); break;
-        case 18: _t->incomingTransaction((*reinterpret_cast< const QModelIndex(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
-        case 19: _t->encryptWallet((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 20: _t->backupWallet(); break;
-        case 21: _t->changePassphrase(); break;
-        case 22: _t->verifyMessage(); break;
-        case 23: _t->unlockWallet(); break;
-        case 24: _t->showNormalIfMinimized((*reinterpret_cast< bool(*)>(_a[1]))); break;
-        case 25: _t->showNormalIfMinimized(); break;
-        case 26: _t->toggleHidden(); break;
+        case 17: _t->incomingTransaction((*reinterpret_cast< const QModelIndex(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2])),(*reinterpret_cast< int(*)>(_a[3]))); break;
+        case 18: _t->encryptWallet((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 19: _t->backupWallet(); break;
+        case 20: _t->changePassphrase(); break;
+        case 21: _t->verifyMessage(); break;
+        case 22: _t->unlockWallet(); break;
+        case 23: _t->showNormalIfMinimized((*reinterpret_cast< bool(*)>(_a[1]))); break;
+        case 24: _t->showNormalIfMinimized(); break;
+        case 25: _t->toggleHidden(); break;
         default: ;
         }
     }
@@ -155,9 +150,9 @@ int BitcoinGUI::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 27)
+        if (_id < 26)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 27;
+        _id -= 26;
     }
     return _id;
 }

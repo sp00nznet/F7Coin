@@ -1,8 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'notificator.h'
 **
-** Created: Wed Mar 12 17:59:04 2014
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -11,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'notificator.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -31,19 +30,19 @@ static const uint qt_meta_data_Notificator[] = {
        0,       // signalCount
 
  // slots: signature, parameters, type, tag, flags
-      47,   13,   12,   12, 0x0a,
-     107,   87,   12,   12, 0x2a,
-     158,  143,   12,   12, 0x2a,
+      12,   52,   86,   86, 0x0a,
+      87,  123,   86,   86, 0x2a,
+     143,  173,   86,   86, 0x2a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_Notificator[] = {
-    "Notificator\0\0cls,title,text,icon,millisTimeout\0"
-    "notify(Class,QString,QString,QIcon,int)\0"
-    "cls,title,text,icon\0"
+    "Notificator\0notify(Class,QString,QString,QIcon,int)\0"
+    "cls,title,text,icon,millisTimeout\0\0"
     "notify(Class,QString,QString,QIcon)\0"
-    "cls,title,text\0notify(Class,QString,QString)\0"
+    "cls,title,text,icon\0notify(Class,QString,QString)\0"
+    "cls,title,text\0"
 };
 
 void Notificator::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)

@@ -1,8 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'optionsdialog.h'
 **
-** Created: Wed Mar 12 17:58:52 2014
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -11,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'optionsdialog.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -31,27 +30,28 @@ static const uint qt_meta_data_OptionsDialog[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      22,   15,   14,   14, 0x05,
+      14,   33,   40,   40, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      41,   14,   14,   14, 0x08,
-      61,   14,   14,   14, 0x08,
-      89,   82,   14,   14, 0x08,
-     114,   14,   14,   14, 0x08,
-     136,   14,   14,   14, 0x08,
-     162,   14,   14,   14, 0x08,
-     187,   14,   14,   14, 0x08,
-     214,   14,   14,   14, 0x08,
-     240,   14,   14,   14, 0x08,
+      41,   40,   40,   40, 0x08,
+      61,   40,   40,   40, 0x08,
+      82,  107,   40,   40, 0x08,
+     114,   40,   40,   40, 0x08,
+     136,   40,   40,   40, 0x08,
+     162,   40,   40,   40, 0x08,
+     187,   40,   40,   40, 0x08,
+     214,   40,   40,   40, 0x08,
+     240,   40,   40,   40, 0x08,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_OptionsDialog[] = {
-    "OptionsDialog\0\0fValid\0proxyIpValid(bool)\0"
-    "enableSaveButtons()\0disableSaveButtons()\0"
-    "fState\0setSaveButtonState(bool)\0"
-    "on_okButton_clicked()\0on_cancelButton_clicked()\0"
+    "OptionsDialog\0proxyIpValid(bool)\0"
+    "fValid\0\0enableSaveButtons()\0"
+    "disableSaveButtons()\0setSaveButtonState(bool)\0"
+    "fState\0on_okButton_clicked()\0"
+    "on_cancelButton_clicked()\0"
     "on_applyButton_clicked()\0"
     "showRestartWarning_Proxy()\0"
     "showRestartWarning_Lang()\0updateDisplayUnit()\0"

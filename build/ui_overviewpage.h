@@ -1,8 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'overviewpage.ui'
 **
-** Created: Wed Mar 12 17:52:59 2014
-**      by: Qt User Interface Compiler version 4.8.4
+** Created by: Qt User Interface Compiler version 4.8.6
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -154,7 +153,7 @@ public:
         labelImmature = new QLabel(frame);
         labelImmature->setObjectName(QString::fromUtf8("labelImmature"));
         labelImmature->setFont(font1);
-        labelImmature->setText(QString::fromUtf8("0 F7C"));
+        labelImmature->setText(QString::fromUtf8("0 BQC"));
         labelImmature->setTextInteractionFlags(Qt::LinksAccessibleByMouse|Qt::TextSelectableByKeyboard|Qt::TextSelectableByMouse);
 
         formLayout_2->setWidget(2, QFormLayout::FieldRole, labelImmature);

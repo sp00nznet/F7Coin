@@ -1,8 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'walletmodel.h'
 **
-** Created: Wed Mar 12 17:59:01 2014
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -11,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'walletmodel.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -31,31 +30,31 @@ static const uint qt_meta_data_WalletModel[] = {
        5,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      56,   13,   12,   12, 0x05,
-      99,   93,   12,   12, 0x05,
-     134,  127,   12,   12, 0x05,
-     163,   12,   12,   12, 0x05,
-     199,  179,   12,   12, 0x05,
+      12,   49,   92,   92, 0x05,
+      93,  121,   92,   92, 0x05,
+     127,  156,   92,   92, 0x05,
+     163,   92,   92,   92, 0x05,
+     179,  207,   92,   92, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-     227,   12,   12,   12, 0x0a,
-     254,  242,   12,   12, 0x0a,
-     313,  285,   12,   12, 0x0a,
-     357,   12,   12,   12, 0x0a,
+     227,   92,   92,   92, 0x0a,
+     242,  273,   92,   92, 0x0a,
+     285,  329,   92,   92, 0x0a,
+     357,   92,   92,   92, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_WalletModel[] = {
-    "WalletModel\0\0balance,unconfirmedBalance,immatureBalance\0"
-    "balanceChanged(qint64,qint64,qint64)\0"
-    "count\0numTransactionsChanged(int)\0"
-    "status\0encryptionStatusChanged(int)\0"
-    "requireUnlock()\0title,message,modal\0"
-    "error(QString,QString,bool)\0updateStatus()\0"
-    "hash,status\0updateTransaction(QString,int)\0"
+    "WalletModel\0balanceChanged(qint64,qint64,qint64)\0"
+    "balance,unconfirmedBalance,immatureBalance\0"
+    "\0numTransactionsChanged(int)\0count\0"
+    "encryptionStatusChanged(int)\0status\0"
+    "requireUnlock()\0error(QString,QString,bool)\0"
+    "title,message,modal\0updateStatus()\0"
+    "updateTransaction(QString,int)\0"
+    "hash,status\0updateAddressBook(QString,QString,bool,int)\0"
     "address,label,isMine,status\0"
-    "updateAddressBook(QString,QString,bool,int)\0"
     "pollBalanceChanged()\0"
 };
 

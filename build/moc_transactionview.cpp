@@ -1,8 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'transactionview.h'
 **
-** Created: Wed Mar 12 17:59:00 2014
-**      by: The Qt Meta Object Compiler version 63 (Qt 4.8.4)
+** Created by: The Qt Meta Object Compiler version 63 (Qt 4.8.6)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -11,7 +10,7 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'transactionview.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 63
-#error "This file was generated using the moc from 4.8.4. It"
+#error "This file was generated using the moc from 4.8.6. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
@@ -31,35 +30,34 @@ static const uint qt_meta_data_TransactionView[] = {
        1,       // signalCount
 
  // signals: signature, parameters, type, tag, flags
-      17,   16,   16,   16, 0x05,
+      16,   43,   43,   43, 0x05,
 
  // slots: signature, parameters, type, tag, flags
-      44,   16,   16,   16, 0x08,
-      67,   16,   16,   16, 0x08,
-      86,   16,   16,   16, 0x08,
-     100,   16,   16,   16, 0x08,
-     114,   16,   16,   16, 0x08,
-     126,   16,   16,   16, 0x08,
-     138,   16,   16,   16, 0x08,
-     155,  151,   16,   16, 0x0a,
-     171,  151,   16,   16, 0x0a,
-     194,  187,   16,   16, 0x0a,
-     224,  217,   16,   16, 0x0a,
-     247,   16,   16,   16, 0x0a,
-     263,   16,   16,   16, 0x0a,
+      44,   43,   43,   43, 0x08,
+      67,   43,   43,   43, 0x08,
+      86,   43,   43,   43, 0x08,
+     100,   43,   43,   43, 0x08,
+     114,   43,   43,   43, 0x08,
+     126,   43,   43,   43, 0x08,
+     138,   43,   43,   43, 0x08,
+     151,  167,   43,   43, 0x0a,
+     171,  167,   43,   43, 0x0a,
+     187,  210,   43,   43, 0x0a,
+     217,  240,   43,   43, 0x0a,
+     247,   43,   43,   43, 0x0a,
+     263,   43,   43,   43, 0x0a,
 
        0        // eod
 };
 
 static const char qt_meta_stringdata_TransactionView[] = {
-    "TransactionView\0\0doubleClicked(QModelIndex)\0"
-    "contextualMenu(QPoint)\0dateRangeChanged()\0"
+    "TransactionView\0doubleClicked(QModelIndex)\0"
+    "\0contextualMenu(QPoint)\0dateRangeChanged()\0"
     "showDetails()\0copyAddress()\0editLabel()\0"
-    "copyLabel()\0copyAmount()\0idx\0"
-    "chooseDate(int)\0chooseType(int)\0prefix\0"
-    "changedPrefix(QString)\0amount\0"
-    "changedAmount(QString)\0exportClicked()\0"
-    "focusTransaction(QModelIndex)\0"
+    "copyLabel()\0copyAmount()\0chooseDate(int)\0"
+    "idx\0chooseType(int)\0changedPrefix(QString)\0"
+    "prefix\0changedAmount(QString)\0amount\0"
+    "exportClicked()\0focusTransaction(QModelIndex)\0"
 };
 
 void TransactionView::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
