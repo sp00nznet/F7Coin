@@ -7,7 +7,7 @@ Good question...
 *Do Not Use*
 ************
 
-This project has been Abandoned. Pleaase See F7CoinV2
+This project has been Abandoned. Please See F7CoinV2
 https://github.com/sp00nznet/F7CoinV2
 
 
