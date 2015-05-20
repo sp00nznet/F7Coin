@@ -1,6 +1,18 @@
 What is f7coin?
 Good question...
 
+
+
+************
+*Do Not Use*
+************
+
+This project has been Abandoned. Pleaase See F7CoinV2
+https://github.com/sp00nznet/F7CoinV2
+
+
+
+------------
 License
 f7coin is released under the terms of the MIT license. See COPYING for more
 information or see http://opensource.org/licenses/MIT.
